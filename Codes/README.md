@@ -15,3 +15,6 @@ INTP2022-ML-3
 - https://www.kaggle.com/code/uysimty/get-start-image-classification/notebook
 - https://towardsdatascience.com/image-classification-of-pcbs-and-its-web-application-flask-c2b26039924a
 - https://towardsdatascience.com/building-an-end-to-end-deep-learning-defect-classifier-application-for-printed-circuit-board-pcb-6361b3a76232
+
+for realtime
+- https://alpha2phi.medium.com/yolo-using-fastapi-websocket-and-react-2b2d28e9f7ed
