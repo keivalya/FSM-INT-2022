@@ -5,22 +5,22 @@ import io
 from PIL import Image
 import json
 from fastapi.middleware.cors import CORSMiddleware
-
+import uvicorn
 
 model = get_yolov5()
-
-app = FastAPI(
-    title="Custom YOLOV5 Machine Learning API",
-    description="""Obtain object value out of image
-                    and return image and json result""",
-    version="0.0.1",
-)
 
 origins = [
     "http://localhost",
     "http://localhost:8000",
     "*"
 ]
+
+app = FastAPI(
+    title="PCB Fault Detection - INTP2022-ML-3",
+    description="""Obtain object value out of image
+                    and return image and json result""",
+    version="0.0.1",
+)
 
 app.add_middleware(
     CORSMiddleware,
@@ -68,3 +68,7 @@ async def detect_food_return_base64_img(file: bytes = File(...)):
         img_base64 = Image.fromarray(img)
         img_base64.save(bytes_io, format="jpeg")
     return Response(content=bytes_io.getvalue(), media_type="image/jpeg")
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
