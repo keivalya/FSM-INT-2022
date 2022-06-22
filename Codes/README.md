@@ -18,3 +18,6 @@ INTP2022-ML-3
 
 for realtime
 - https://alpha2phi.medium.com/yolo-using-fastapi-websocket-and-react-2b2d28e9f7ed
+
+deployment to the web
+- https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
