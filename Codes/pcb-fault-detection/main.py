@@ -19,7 +19,7 @@ app = FastAPI(
     title="PCB Fault Detection - INTP2022-ML-3",
     description="""Obtain object value out of image
                     and return image and json result""",
-    # version="0.0.1",
+    version="0.0.1",
 )
 
 app.add_middleware(
