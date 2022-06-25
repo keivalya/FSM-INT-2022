@@ -12,3 +12,9 @@ Run the following command in Linux/Ubuntu (after installing requirements)
 ```
 python3 main.py
 ```
+
+
+```
+pip install pip-tools
+pip-compile requirements.in
+```
