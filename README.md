@@ -21,4 +21,4 @@ pip install pip-tools
 pip-compile requirements.in
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hlkl7Vz8Quk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Hlkl7Vz8Quk/0.jpg)](https://www.youtube.com/watch?v=Hlkl7Vz8Quk)
