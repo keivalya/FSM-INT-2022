@@ -2,8 +2,23 @@
 INTP2022-ML-3
 
 The entire project has been carried out in two different parts.
-- 
-- 
+- Standalone real-time PCB Fault Detection using OpenCV
+- Online Web-application to facilitate sequential analysis
+
+Phases of the Project:
+
+1. Understanding data and Exploratory Data Analysis
+2. Model Building and Training
+3. Model Hyperparameter tuning
+4. Model comparison and testing
+5. Model Deployment
+
+Let us go through them one-by-one
+
+## 1. Understanding the dataset and Exploratory Data Analysis (EDA)
+
+### About the Dataset
+The collection comprises 1,500 picture pairs, each consisting of a template image devoid of defects and a tested image that has been aligned and annotated with the positions of the six most prevalent PCB defects: open, short, mouse bite, spur, pinhole, and spurious copper.
 
 ## Resources:
 - https://betterprogramming.pub/machine-learning-model-api-using-yolov5-with-fast-api-192f1290a982
