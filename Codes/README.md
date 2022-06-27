@@ -1,6 +1,9 @@
 # FSM-INT-2022
 INTP2022-ML-3
 
+The entire project has been carried out in two different parts.
+- 
+- 
 
 ## Resources:
 - https://betterprogramming.pub/machine-learning-model-api-using-yolov5-with-fast-api-192f1290a982
