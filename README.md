@@ -56,11 +56,11 @@ for imag in image_file_dirs:
                 cropim.save(nf+str(anno)+"_"+f+"_"+str(annotate(anno))+"_"+str(count)+".jpeg", "jpeg")
 ```
 
-### Image Preprocessing
+## Image Preprocessing
 It is essential to pre-process the image in order to delete any kind of noise or unwanted detailing in the dataset. This helps in better evaluation as well as conducting mathematical operations or image functions using OpenCV to the images. However, in our case, we require our Machine learning (or deep learning) algorithm to learn every single detail about the data that has been fed to it. If we process the data into something that is not distinguishable for the algorithm, it will not learn all the relevant features that are necessary to output a valid and confident prediction. In other words, here preprocessing the data for smoothening the surface, or reducing size, or even applying gaussian filter (let’s say) will act as an unwanted noise, instead of helping us for better results.
 So, what can be done?
 
-### Preparing images for training
+## Preparing images for training
 Current folder structure:
 ```
 └───PCBData
@@ -127,6 +127,10 @@ for folder_name in folder_names:
 ```
 Creating the /validation directory is not mandatory, however, is often recommended to avoid testing the model on the trained dataset itself whilst training.
 
+### Why change the folder structure?
+In order to answer this question, let us understand how were the folders grouped in the first place. The images were grouped according to the contradiction in the novel module, termed Group Pyramid Pooling by the author. This is assumed to be categorized into the number of pixels that are being operated while feature scaling the neural network model.
+However, this distinction is redundant for us because the model architecture we are going to use will be a lot deeper than the one the author of DeepPCB has used, hence we will be able to extract finer features enabling us to carry out experiments regarding the efficiency and effectiveness of our model.
+Therefore, it will be much more efficient for us to just make two folders namely /images and /labels. This will help our server/local computer to recognize where all the images and their corresponding labels are located onto which we need to train our model. And just like that, we have prepared our dataset which can now be trained further.
 
 
 ## 2. Model Building and Training
