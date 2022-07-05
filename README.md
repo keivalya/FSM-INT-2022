@@ -164,6 +164,9 @@ pip-compile requirements.in
 - https://blog.roboflow.com/yolov5-improvements-and-evaluation/
 - https://medium.com/analytics-vidhya/object-detection-algorithm-yolo-v5-architecture-89e0a35472ef
 - https://arxiv.org/abs/1505.00853 | https://arxiv.org/abs/1908.08681
+new: https://towardsdatascience.com/the-practical-guide-for-object-detection-with-yolov5-algorithm-74c04aac4843?gi=1fa5c85710dd
+
+*suggestion*: search for papers related or written based on YOLOv5 architecture
 
 ### Reference to plausible citations
 - Yang, G., Feng, W., Jin, J., Lei, Q., Li, X., Gui, G., & Wang, W. (2020). Face Mask Recognition System with YOLOV5 Based on Image Recognition. 2020 IEEE 6th International Conference on Computer and Communications (ICCC). doi:10.1109/iccc51575.2020.9345042 
