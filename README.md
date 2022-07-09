@@ -172,3 +172,5 @@ new: https://towardsdatascience.com/the-practical-guide-for-object-detection-wit
 - Yang, G., Feng, W., Jin, J., Lei, Q., Li, X., Gui, G., & Wang, W. (2020). Face Mask Recognition System with YOLOV5 Based on Image Recognition. 2020 IEEE 6th International Conference on Computer and Communications (ICCC). doi:10.1109/iccc51575.2020.9345042 
 - Zhou, F., Zhao, H., & Nie, Z. (2021). Safety Helmet Detection Based on YOLOv5. 2021 IEEE International Conference on Power Electronics, Computer Applications (ICPECA). doi:10.1109/icpeca51329.2021.9362711 
 - https://arxiv.org/pdf/1911.11929.pdf
+
+### Use this for structure overview: https://github.com/ultralytics/yolov5/issues/280
